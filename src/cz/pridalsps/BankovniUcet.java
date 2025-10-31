@@ -10,4 +10,10 @@ public class BankovniUcet {
         this.jmenoMajitele = jmenoMajitele;
         this.stavUctu = 0;
     }
+
+    public void vipisInfo(){
+        System.out.println("Číslo účtu: " + cisloUctu);
+        System.out.println("Jmeno majitele: " + jmenoMajitele);
+        System.out.println("Stav účtu: " + stavUctu);
+    }
 }
